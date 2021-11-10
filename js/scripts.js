@@ -234,6 +234,32 @@ $(document).ready(function () {
         }
     });
 
+    $('#rsvp-form2').on('submit', function (e) {
+        e.preventDefault();
+        var data = $(this).serialize();
+
+        $('#alert-wrapper2').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
+
+        if (MD5($('#invite_code2').val()) !== '192f24da6359c2da9abc228df6a7b5a3') {
+            $('#alert-wrapper2').html(alert_markup('danger', 'Webapp : <strong>Sorry!</strong> Your invite code is incorrect.'));
+        } else {
+            $.post('https://script.google.com/macros/s/AKfycbwKSkZSGp4LXvL6aSairdiyiLF1TzKX47l7STbphrg0toqnj8Av/exec', data)
+                .done(function (data) {
+                    console.log(data);
+                    if (data.result === "error") {
+                        $('#alert-wrapper2').html(alert_markup('danger', data.message));
+                    } else {
+                        $('#alert-wrapper2').html('');
+                        $('#rsvp-modal-declined"').modal('show');
+                    }
+                })
+                .fail(function (data) {
+                    console.log(data);
+                    $('#alert-wrapper2').html(alert_markup('danger', '<strong>Sorry!</strong> There is some issue with the server. '));
+                });
+        }
+    });
+
 });
 
 /********************** Extras **********************/
