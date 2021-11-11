@@ -414,18 +414,18 @@
                     <h3>What are you waiting for?</h3>
                     <p>We would greatly appreciate if you could RSVP before 1st of February '22</p>
 
-                    <div class="bs-example">
-                        <div class="panel-group" id="accordion">
+                    <!-- <div class="bs-example"> -->
+                        <div  id="accordion">
 
                             <div class="panel panel-default">
                                 <form id="rsvp-form" class="rsvp-form" action="" method="POST">
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
-                                            <div name="group1" value="1" data-toggle="collapse" data-parent="#accordion"
+                                            <div name="group1" data-toggle="collapse"
                                                 href="#collapseOne"><b>Yes, I'll come!</b></div>
                                         </h4>
                                     </div>
-                                    <div id="collapseOne" class="panel-collapse collapse">
+                                    <div id="collapseOne" class="panel-collapse collapse" data-parent="#accordion">
                                         <div class="panel-body">
                                             <div class="row">
                                                 <div class="col-md-6 col-sm-6">
@@ -472,11 +472,11 @@
                                 <form id="rsvp-form2" class="rsvp-form" action="" method="POST">
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
-                                            <div name="group2" value="2" data-toggle="collapse" data-parent="#accordion"
+                                            <div name="group1" data-toggle="collapse" 
                                                 href="#collapseTwo"><b>No, I can't make it</b></div>
                                         </h4>
                                     </div>
-                                    <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div id="collapseTwo" class="panel-collapse collapse" data-parent="#accordion"> 
                                         <div class="panel-body">
                                             <div class="row">
                                                 <div class="col-md-6 col-sm-6">
@@ -511,9 +511,10 @@
                                     </div>
                                 </form>
                             </div>
-
                         </div>
-                    </div>
+                        
+                    <!-- </div> -->
+
                 </div>
 
             </div>
