@@ -38,9 +38,9 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEPMLPWK7K"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-    
+
         gtag('config', 'G-ZEPMLPWK7K');
     </script>
 </head>
@@ -102,6 +102,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h3>We are getting married!</h3>
+                    <h1 data-i18n="app-title">fallback text</h1>
                     <p>The dates is the xx <sup>th</sup> of August 2022 and we would like you to be a part of
                         it.</p>
                     <div class="share-bar"></div>
@@ -542,18 +543,30 @@
             </div>
         </div>
     </footer>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/lib/CLDRPluralRuleParser/CLDRPluralRuleParser.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.messagestore.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.fallbacks.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.language.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.parser.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.emitter.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.emitter.bidi.js"></script>
+    
     <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/jquery.flexslider-min.js"></script>
     <script src="js/jquery.mb.YTPlayer.min.js"></script>
     <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
     <script src="js/vendor/ouical.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="js/vendor/jquery.history.js"></script>
+    <script src="js/vendor/url.min.js"></script>
+    <script src="js/scripts.js"></script>
+
     <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlPw3GQYI3faa_9mRE6plWuM7xNEmrwH0&callback=initMap"></script>
+        src="https://maps.googleapis.com/maps/api/js?key=xxx&callback=initMap"></script>
 </body>
 
 </html>
