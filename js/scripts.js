@@ -275,7 +275,7 @@ $(document).ready(function () {
                         $('#alert-wrapper2').html(alert_markup('danger', data.message));
                     } else {
                         $('#alert-wrapper2').html('');
-                        $('#rsvp-modal-declined"').modal('show');
+                        $('#rsvp-modal-declined').modal('show');
                     }
                 })
                 .fail(function (data) {
