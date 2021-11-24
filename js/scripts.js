@@ -8,10 +8,41 @@ $(document).ready(function () {
 
     $.i18n().load({
         'en': {
-            'app-title': 'test en',
+            'event': 'Program & Events',
+            'eng': 'Engagement',
+            'list': 'Wedding List',
+            'location': 'Location & Venue',
+            'intro-header': 'We are getting married!',
+            'intro-s1': 'The date is the ',
+            'intro-s2': '23 of July 2022',
+            'intro-s3': 'and we would like you to be a part of it.',
+            'intro-s4': 'The ceremony will be in Canada, in Prince Edward (Ontario). Please RSVP before the 1st of February \'22.',
+            'intro-s5': 'As of November 2021, Canada welcomes fully vaccinated travellers with no quarantine, you just need to take a PCR test before your trip. Latest guidelines are available on ',
+            'intro-s6': 'the government website',
+            'intro-s7': 'Accomodation is available close to the venue and can be booked on ',
+            'intro-s8': 'this website.',
+            'intro-s9': 'Other closeby options are the ',
+            'intro-s10': 'and the',
+            'eng-header': 'Engagement Pics',
         },
         'fr': {
-            'app-title': 'test fré',
+            'event': 'Programme',
+            'eng': 'Fiançailles',
+            'list': 'Liste de Mariage',
+            'location': 'Lieu / C\'est où ?',
+            'intro-header': 'Nous nous marrions !',
+            'intro-s1': 'Le marriage aura lieu le ',
+            'intro-s2': '23 Juillet 2022',
+            'intro-s3': 'et nous voudrions que vous soyez des notres !',
+            'intro-s4': 'La cérémonie sera au Canada, en Ontario, dans le conté de Prince Edward. S\'il vous plait repondez avant le 1er Février \'22.',
+            'intro-s5': 'En date de Novembre 2021, le Canada accueille les voyageurs étrangers vaccinés (2 doses) qui présentent leurs preuve de vaccination et un test PCR récent. Les consignes sont publiées et mises à jour sur ',
+            'intro-s6': 'le site du gouvernement',
+            'intro-s7': 'Un hébergement peut être réservé dans le complexe adjascent',
+            'intro-s8': 'sur ce site.',
+            'intro-s9': 'Les autres options sont le ',
+            'intro-s10': 'et le',
+            'eng-header': 'Photos de fiançailles',
+
         }
         // 'en': './js/i18n/en.json',
         // 'fr': './js/i18n/fr.json'
