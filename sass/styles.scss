@@ -12,6 +12,11 @@
 /* ==========================================================================
 Global Styles
 ========================================================================== */
+.rsvp-btn-mid {
+  color: white;
+  font-weight: bold;
+}
+
 .group:after {
   content: "";
   display: table;
@@ -259,11 +264,6 @@ Hero
   background-size: cover;
   position: relative;
 
-  /*.rsvp-btn {
-    position: absolute;
-    bottom: 100px;
-    left: 50%;
-  }*/
   .down-arrow a {
     color: $txt-light;
   }
@@ -278,7 +278,7 @@ Hero
     margin-bottom: 80px;
   }
   .hero-content {
-    padding-top: 40%;
+    padding-top: 15%;
   }
   .hero-content img {
     width: 55%;
@@ -326,6 +326,7 @@ header {
 
     li {
       display: inline;
+      font-weight: bold;
 
       a {
         color: $txt-light;
@@ -343,6 +344,7 @@ header {
   ul.member-actions {
     li {
       display: inline;
+      font-weight: bold;
 
       a {
         color: $txt-light;
