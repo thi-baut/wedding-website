@@ -37,6 +37,7 @@ $(document).ready(function () {
             'rsvp-header': 'What are you waiting for?',
             'rsvp-sentence': 'We would greatly appreciate if you could RSVP before 1st of February \'22 using the form below.',
             'rsvp-questions': 'If you need to chat or have questions please email us at ',
+            'list-s1': 'We don\'t have an official wedding list, we plan to do a trip after our big day.',
             'list-s2': 'We would like to receive donations through eTransfer (Interac) at lillian.thibaut@gmail.com or cash ($ or €) on the wedding day.',
             'insta-header': 'A picture is worth a thousand words!',
             'insta-s1': 'Help us capture the moment, tag your photos with the hashtag',
