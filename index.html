@@ -295,18 +295,18 @@
 
     <section id="map" class="section-padding">
         <div class="text-center">
-            <h3>How do I get there?</h3>
-            <p>It's way easier than you think!</p>
+            <h3 data-i18n="map-header"></h3>
+            <p data-i18n="map-subheader"></p>
         </div>
         <div id="map-canvas"></div>
         <div id="map-content-wrapper" class="container pointer-events-none">
             <div class="row">
                 <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
-                    <div class="text-center">
+                    <!-- <div class="text-center">
                         <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
                             <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
                         </div>
-                    </div>
+                    </div> -->
                     <div id="map-content" class="pointer-events-auto">
                         <div class="row">
                             <div class="col-md-6">
@@ -323,8 +323,7 @@
                         <div class="row text-center">
                             <div class="col-md" style="padding: 5px;">
                                 <a class="btn btn-accent btn-small" id="btn-show-map"><i
-                                        class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
-                                    map</a>
+                                        class="fa fa-map-marker"></i>&nbsp;&nbsp;<span data-i18n="map-show"></span></a>
                             </div>
                         </div>
                     </div>
@@ -341,8 +340,8 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
                         </button>
                         <div class="section-padding">
-                            <h3>Thank you!</h3>
-                            <p>We are glad to see you join us on our big day.</p>
+                            <h3 data-i18n="rsvp-yes-header"></h3>
+                            <p data-i18n="rsvp-yes-sentence"></p>
                             <div id="add-to-cal"></div>
                         </div>
                     </div>
@@ -357,8 +356,8 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
                         </button>
                         <div class="section-padding">
-                            <h3>Thank you for responding</h3>
-                            <p>We are sad you can't make it!</p>
+                            <h3 data-i18n="rsvp-no-header"></h3>
+                            <p data-i18n="rsvp-no-sentence"></p>
                         </div>
                     </div>
                 </div><!-- /.modal-content -->
@@ -368,8 +367,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
-                    <h3>What are you waiting for?</h3>
-                    <p>We would greatly appreciate if you could RSVP before 1st of February '22 using the form below.</p>
+                    <h3 data-i18n="rsvp-header"></h3>
+                    <p data-i18n="rsvp-sentence"></p>
 
                     <!-- <div class="bs-example"> -->
                     <div id="accordion">
@@ -378,7 +377,7 @@
 
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <div name="group1" data-toggle="collapse" href="#collapseOne"><b>Yes, I'll come!</b>
+                                    <div name="group1" data-toggle="collapse" href="#collapseOne"><b data-i18n="rsvp-yes-button">Yes, I'll come!</b>
                                     </div>
                                 </h4>
                             </div>
@@ -419,9 +418,7 @@
                                         <div class="row">
                                             <div class="col-md-12" id="alert-wrapper"></div>
                                         </div>
-                                        <button class="btn-fill rsvp-btn">
-                                            Submit
-                                        </button>
+                                        <button class="btn-fill rsvp-btn" data-i18n="rsvp-submit">                            </button>
                                     </form>
                                 </div>
                             </div>
@@ -432,8 +429,7 @@
 
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <div name="group1" data-toggle="collapse" href="#collapseTwo"><b>No, I can't make
-                                            it</b></div>
+                                    <div name="group1" data-toggle="collapse" href="#collapseTwo"><b data-i18n="rsvp-no-button"></b></div>
                                 </h4>
                             </div>
                             <div id="collapseTwo" class="panel-collapse collapse" data-parent="#accordion">
@@ -478,7 +474,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
-                    <p>If you need to chat or have questions please email us at <a href="mailto:lillian.thibaut@gmail.com">lillian.thibaut@gmail.com</a></p>
+                    <p><span data-i18n="rsvp-questions"></span><a href="mailto:lillian.thibaut@gmail.com">lillian.thibaut@gmail.com</a></p>
                 </div>
             </div>
         </div>
@@ -488,10 +484,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3>Wedding list</h3>
-                    <p>We don't have an official wedding list, we plan to do a trip after our big day.</p> 
+                    <h3 data-i18n="list"></h3>
+                    <p data-i18n="list-s1"></p> 
                         
-                    <p>We would like to receive donations through eTransfer (<i>Interac</i>) at lillian.thibaut@gmail.com or cash ($ or €) on the wedding day.</p>
+                    <p data-i18n="list-s2"></p>
                 </div>
             </div>
         </div>
@@ -501,8 +497,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3>A picture is worth a thousand words!</h3>
-                    <p>Help us capture the moment, tag your photos with the hashtag
+                    <h3 data-i18n="insta-header"></h3>
+                    <p><span data-i18n="insta-s1"></span>
                         <a href="https://instagram.com/explore/tags/lillianandthibaut/"
                             target="_blank">#LillianAndThibaut</a>
                     </p>
@@ -521,8 +517,8 @@
             <div class="row">
                 <div class="col-sm-12 text-center content">
                     <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
-                    <p>Website inspired by <a href="https://github.com/rampatra/wedding-website">this Github
-                            template</a></p>
+                    <p><span data-i18n="footer-credits"></span><a href="https://github.com/rampatra/wedding-website"><span
+                                data-i18n="footer-github-url"></span></a></p>
                 </div>
             </div>
         </div>
