@@ -9,7 +9,7 @@ $(document).ready(function () {
     $.i18n().load({
         'en': {
             'event': 'Program & Events',
-            'eng': 'Engagement',
+            'eng': 'Photos',
             'list': 'Wedding Registry',
             'location': 'Location & Venue',
             'intro-header': 'We are getting married!',
@@ -58,7 +58,7 @@ $(document).ready(function () {
         },
         'fr': {
             'event': 'Programme',
-            'eng': 'Fiançailles',
+            'eng': 'Photos',
             'list': 'Liste de Mariage',
             'location': 'Lieu / C\'est où ?',
             'intro-header': 'Nous nous marrions !',
@@ -73,7 +73,7 @@ $(document).ready(function () {
             'intro-s9': 'Les autres options sont le ',
             'intro-s10': 'et le',
             'intro-s11': 'Il y a plusieurs Airbnb et plus petits hotels dans la région. PLus de détails à propos du service de navette depuis le lieu du marriage seront fournis lorsque nous serons proche de la date du mariage.',
-            'eng-header': 'Photos de fiançailles',
+            'eng-header': 'Photos',
             'map-header': 'Comment s\'y rendre ?',
             'map-subheader': 'C\'est plus facile que vous l\'imaginez !',
             'map-show': 'Afficher la carte',
