@@ -2,8 +2,13 @@ $(document).ready(function () {
 
     /***************** Translation ******************/
     var set_locale_to = function (locale) {
-        if (locale)
+        if (locale){
             $.i18n().locale = locale;
+        }
+        else{
+            var userLang = navigator.language || navigator.userLanguage;
+            $.i18n().locale = userLang.split('-')[0];
+        }
     };
 
     $.i18n().load({
