@@ -118,7 +118,6 @@ $(document).ready(function () {
             e.preventDefault();
             History.pushState(null, null, "?locale=" + $(this).data('locale'));
         });
-        console.log('done loading translation!');
     });
 
     $('body').i18n();
