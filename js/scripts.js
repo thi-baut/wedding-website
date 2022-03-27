@@ -21,7 +21,7 @@ $(document).ready(function () {
             'intro-s1': 'The date is the ',
             'intro-s2': '23rd of July 2022',
             'intro-s3': 'and we would like you to be a part of it.',
-            'intro-s4': 'The ceremony will be in Prince Edward County, Ontario, Canada. Please RSVP below',
+            'intro-s4': 'The ceremony will be in Prince Edward County, Ontario, Canada. Please RSVP below.',
             'intro-s5': 'Canada welcomes fully vaccinated travellers with no quarantine, you just need to take a PCR test before your trip. Latest guidelines are available on ',
             'intro-s6': 'the government website',
             'intro-s7': 'There are many accomodation options in Prince Edward Country. Accomodation is available close to the venue on ',
@@ -60,7 +60,7 @@ $(document).ready(function () {
             'event-e3-header': 'Garden Reception ',
             'event-e3-desc': 'Following the ceremony, we will have a small reception.',
             'event-e4-header': 'Dinner ',
-            'event-e4-desc': 'Sit down dinner at the tables in the garden if weather permits - location to be determined, either on site or at a restaurant nearby',
+            'event-e4-desc': 'Sit down dinner in Picton at the restaurant ',
         },
         'fr': {
             'event': 'Programme',
@@ -110,7 +110,7 @@ $(document).ready(function () {
             'event-e3-header': 'Garden Reception ',
             'event-e3-desc': 'Suivant la cérémonie, nous aurons une petite récéption.',
             'event-e4-header': 'Diner ',
-            'event-e4-desc': 'Diner à table dans le jardin du lieu de cérémonie si le temps le permets, ou à un restaurant du coin - à déterminer.',
+            'event-e4-desc': 'Diner à table à Picton au restaurant ',
         }
     }).done(function () {
         set_locale_to(url('?locale'));
